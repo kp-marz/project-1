@@ -3,6 +3,24 @@ p {
     color: #000000;
 }
 
+.last {
+    margin-bottom: 50px;
+}
+
+.first {
+    margin-top: 50px;
+}
+
+a[href^="tel:"] {
+    color: inherit;
+    text-decoration: none;
+  }
+
+
+  /* --------------------------------------- Navigation ------------------------------ */
+  .navbar {
+      background-color: #0a2747;
+  }
 
 
 /* --------------------------------------- Homepage ------------------------------ */
@@ -25,8 +43,8 @@ p {
 
 .contact-info {
     background-color: #EEC120;
-    margin-bottom: 2em;
     padding: 10px;
+    margin-bottom: 2em;
 }
 
 .list-social-icons {
@@ -36,6 +54,7 @@ p {
     list-style: none;
     padding: 5px;
     flex-grow: 1;
+    justify-content: flex-end;
 }
 
 .list-social-icons li {
@@ -46,7 +65,7 @@ p {
 
 #menu-callout {
     background: url("images/homepage-menu.jpg");
-    background-position: fixed;
+    background-attachment: fixed;
     background-size: cover;
     margin: 50px 0px;
 
@@ -54,4 +73,72 @@ p {
 
 #menu-callout .row {
     padding: 100px;
+}
+
+#menu-callout h1 {
+    color: #ffffff;
+}
+
+.btn-outline-primary {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #EEC120;
+    border-color: #EEC120;
+
+}
+
+/*Reservation*/
+
+#reservation-callout  {
+    background: url("images/homepage-reservations.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 50px 20px;
+
+}
+
+#reservation-callout h1 {
+    color: #ffffff;
+}
+
+#reservation-callout .row {
+    padding: 100px;
+}
+
+/* --------------------------------------- Footer ------------------------------ */
+
+#pre-footer, footer {
+    background-color: #212121;
+
+}
+
+#pre-footer ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+
+}
+
+#pre-footer ul li {
+    flex-grow: 1;
+    width: 250px;
+
+}
+#flex-gallery img {
+    width: 100%;
+    
+}
+
+footer .row {
+    padding:20px;
+
+}
+
+footer p {
+    color: #ffffff;
 }
