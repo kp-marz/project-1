@@ -1,0 +1,57 @@
+/* --------------------------------------- General ------------------------------ */
+p {
+    color: #000000;
+}
+
+
+
+/* --------------------------------------- Homepage ------------------------------ */
+
+/*header*/
+.jumbotron {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url("images/homepage-header.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
+
+}
+
+
+.jumbotron h1, .jumbotron p {
+    color: #ffffff;
+    padding:20px;
+}
+
+
+.contact-info {
+    background-color: #EEC120;
+    margin-bottom: 2em;
+    padding: 10px;
+}
+
+.list-social-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 5px;
+    flex-grow: 1;
+}
+
+.list-social-icons li {
+    margin-right: 5px;
+}
+
+/*menu*/
+
+#menu-callout {
+    background: url("images/homepage-menu.jpg");
+    background-position: fixed;
+    background-size: cover;
+    margin: 50px 0px;
+
+}
+
+#menu-callout .row {
+    padding: 100px;
+}
