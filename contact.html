@@ -15,6 +15,9 @@
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
+      <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster|Mr+Dafoe|Oswald" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css" type="text/css" >
   </head>
@@ -22,7 +25,7 @@
   <body>
       <header>
           <nav class="navbar  navbar-expand-lg navbar-dark ">
-                <a class="navbar-brand" href="#">Rocco</a>
+                <a class="navbar-brand" href="index.html">Rocco</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -64,28 +67,57 @@
         </div>
       </div>
       <div class="container first last">
-          <div class="row d-flex align-items-center">
-            <div class="col-sm-6">
-              <img class="img-fluid rounded" src="images/rocco-chefs.jpg" alt="Rocco Resturaunt Store Front">
-            </div>
-            <div class="col-sm-6">
-                <p>Local Chef and restaurateur, Mark Cupolo along with partner Dan Richards opened Rocco in 2008. An intimate spot on Monroe Avenue downtown, Rocco puts a local spin on the Italian Osteria. Chef Cupolo has a long history with Rochester restaurant patrons from his previous ventures and as Exec Chef of Max Chophouse. </p>
-                <p>Our <a href="menu.html">menu</a> features a selection of salads, brick oven pizzas, pasta, risotto, and grilled meats as well as nightly specials. The exclusively Italian wine list serves the tradition of "Osteria" as a place to relax and gather with a little food and a little wine.</p> 
-            </div>
-          </div>
-        </div>
+          <p>If you are looking to make a reservation, please use the form below. For all other inquires please call us directly at <a href="tel:1-585-454-3510">585.454.3510</a> to speak with a floor manager. </p>
+
+      </div>
+      <div class="container first last">
+        <h1 class="text-center">Reservations</h1>
         <br>
-        <div class="container first last">
-          <div class="row d-flex align-items-center">
-            <div class="col-sm-8">
-              <h1>A message from Our Chef</h1>
-              <p>Step into our world of savory cuisine and learn how our secret philosophy separates us from the rest. Food is our passion, so we work hard at delivering the most finest menu that is built on only the freshest and most organic products. We take time selecting all our meats and seafood to ensure you will never have to worry about any raging hormones or antibiotics. You won’t find any pesticides in your veggies either. Our philosophy about food has always been for it to taste good it has to be healthy. And we promise that every ingredient that goes in to your fine dining experience has been personally selected from only the most reputable of sources to bring together a sensationally delicious and exquisite experience.</p>
-            </div>
-            <div class="col-sm-4">
-                <img class="img-fluid rounded" src="images/chef-rocco.jpg">
-            </div>
-          </div>
-        </div>
+          <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="fullName">Full Name</label>
+                  <input type="text" class="form-control" id="fullName" placeholder="Full Name">
+                </div>
+                <div class="form-group col-md-6">
+                        <label for="telNum">Phone Number</label>
+                        <input type="tel" class="form-control" id="telNum" placeholder="555-555-5555">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="resvDate">Date</label>
+                  <input type="date" class="form-control" id="resvDate">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputTime">Time</label>
+                  <select id="inputTime" class="form-control">
+                    <option>Lunch</option>
+                    <option selected>Dinner</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="inputGuest">Guest</label>
+                  <select id="inputGuest" class="form-control">
+                    <option selected>&nbsp;</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                  </select>
+                </div>
+              </div>
+              <br>
+              <button type="submit" class="btn btn-primary">Check Availability</button>
+            </form>
+      </div>
+          
 
               <div id="pre-footer">
                   <ul id="flex-gallery">

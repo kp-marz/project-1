@@ -1,6 +1,12 @@
 /* --------------------------------------- General ------------------------------ */
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
 p {
     color: #000000;
+    font:  20px 'Oswald', sans-serif;
 }
 
 .last {
@@ -15,6 +21,23 @@ a[href^="tel:"] {
     color: inherit;
     text-decoration: none;
   }
+
+  .white {
+    color:#ffffff;
+    text-shadow: 1px 1px #000000;
+}
+
+.olive {
+    color:#EEC120;
+}
+
+h1, h2, h3 {
+    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    font-size: 3.5em;
+}
 
 
   /* --------------------------------------- Navigation ------------------------------ */
@@ -71,7 +94,7 @@ a[href^="tel:"] {
 
 }
 
-#menu-callout .row {
+.callout {
     padding: 100px;
 }
 
@@ -96,7 +119,7 @@ a[href^="tel:"] {
     background: url("images/homepage-reservations.jpg");
     background-attachment: fixed;
     background-size: cover;
-    margin: 50px 20px;
+    margin: 50px 0px;
 
 }
 
@@ -104,9 +127,72 @@ a[href^="tel:"] {
     color: #ffffff;
 }
 
-#reservation-callout .row {
-    padding: 100px;
+/* --------------------------------------- About ----------------------------- */
+
+.signature {
+    font: 35px 'Mr Dafoe', cursive;
+    float: right;
 }
+
+
+
+/* --------------------------------------- Menu ------------------------------ */
+
+
+
+.menu-item {
+    font-family: Abril Fatface;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+#antipasti-callout  {
+    background: url("images/antipasti-menu-items.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0px;
+
+}
+
+#pizza-callout  {
+    background: url("images/pizza-menu-items.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0px;
+
+}
+
+#pasta-callout  {
+    background: url("images/pasta-menu-items.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0px;
+
+}
+
+#piatti-callout  {
+    background: url("images/piatti-menu-items.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0px;
+
+}
+
+#dolci-callout  {
+    background: url("images/dolci-menu-items.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0px;
+
+}
+
+
+
 
 /* --------------------------------------- Footer ------------------------------ */
 
